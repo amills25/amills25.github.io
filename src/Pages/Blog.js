@@ -3,15 +3,11 @@ import React from "react";
 export default function AboutMe() {
     return (
         <>
-            <body
-                // style="background-image: url('./img/rock2.jpg'); background-position:center; background-size: cover; background-attachment: fixed; background-repeat: repeat;"
-                className="bg-opacity-10;"
-            >
+            <body className="bg-opacity-10;">
                 <img
                     src="./img/AMBlackXLTrans.jpg"
-                    className="rounded img-fluid mx-auto d-block"
+                    className="rounded img-fluid mx-auto d-block postPic"
                     alt="Small Black Logo"
-                    // style="max-height:250px;"
                 />
                 <h1 className="text-center">Bootcamp Blog</h1>
 
@@ -59,7 +55,7 @@ export default function AboutMe() {
                 <br></br>
 
                 <div className="container bg-white">
-                    <div className="row border border-dark border-5 rounded-3">
+                    <div className="row border border-dark border-5 rounded-3 postPic">
                         <div className="col"></div>
                         <h3 className="text-center">Week One</h3>
                         <div className="text-center">
@@ -130,7 +126,7 @@ export default function AboutMe() {
                         <div className="text-center">
                             <img
                                 src="./img/htmlcssjs.png"
-                                className="rounded mx-auto d-block img-fluid"
+                                className="rounded mx-auto d-block img-fluid postPic"
                                 alt="Code language logos"
                             />
                         </div>
@@ -210,7 +206,7 @@ export default function AboutMe() {
                         <div className="text-center">
                             <img
                                 src="./img/3goggles.jpg"
-                                className="rounded mx-auto d-block img-fluid"
+                                className="rounded mx-auto d-block img-fluid postPic"
                                 alt="Anthony Davis 3 Goggles"
                             />
                         </div>
@@ -273,7 +269,7 @@ export default function AboutMe() {
                         <div className="text-center">
                             <img
                                 src="./img/billnext.jpg"
-                                className="rounded mx-auto d-block img-fluid"
+                                className="rounded mx-auto d-block img-fluid postPic"
                                 alt="Onto the Next Bill"
                             />
                         </div>
@@ -346,9 +342,8 @@ export default function AboutMe() {
                         <div className="text-center">
                             <img
                                 src="./img/classinsession.jpg"
-                                className="rounded mx-auto d-block img-fluid"
+                                className="rounded mx-auto d-block img-fluid postPic"
                                 alt="Class Is In Session"
-                                // style="max-height:300px;"
                             />
                         </div>
 
@@ -428,9 +423,8 @@ export default function AboutMe() {
                         <div className="text-center">
                             <img
                                 src="./img/goodbetterbest.jpg"
-                                className="rounded mx-auto d-block img-fluid"
+                                className="rounded mx-auto d-block img-fluid postPic"
                                 alt="Good-Better-Best"
-                                // style="max-height:300px;"
                             />
                         </div>
 
@@ -494,9 +488,8 @@ export default function AboutMe() {
                         <div className="text-center">
                             <img
                                 src="./img/parentchild.jpg"
-                                className="rounded mx-auto d-block img-fluid"
+                                className="rounded mx-auto d-block img-fluid postPic"
                                 alt="Parent and child at computer"
-                                // style="max-height:300px;"
                             />
                         </div>
 
@@ -610,9 +603,8 @@ export default function AboutMe() {
                         <div className="text-center">
                             <img
                                 src="./img/react.png"
-                                className="rounded mx-auto d-block img-fluid"
+                                className="rounded mx-auto d-block img-fluid postPic"
                                 alt="React logo"
-                                // style="max-height:300px;"
                             />
                         </div>
 
@@ -651,6 +643,62 @@ export default function AboutMe() {
                             forward to seeing what else they have to offer that
                             coule be beneficial over time and for larger
                             projects.
+                        </p>
+                    </div>
+                </div>
+
+                <br></br>
+
+                <div className="container bg-white">
+                    <div className="row border border-dark border-5 rounded-3">
+                        <div className="col"></div>
+                        <h3 className="text-center">Week Nine</h3>
+                        <div className="text-center">
+                            <img
+                                src="./img/CLI.jpg"
+                                className="rounded mx-auto d-block img-fluid postPic"
+                                alt="Command line tools"
+                            />
+                        </div>
+
+                        <p>
+                            From day one of bootcamp, we've had to learn how to
+                            work in a command line interface (CLI), and I've
+                            thought it was scary from that first moment. I
+                            always thought of the command line as where
+                            professional hackers do their work, and not
+                            something I needed to be versed in. Even though I've
+                            learned how to work in the CLI in the context of
+                            Git, the unknown of how much else it can do is
+                            intimidating.
+                        </p>
+
+                        <p>
+                            If I could build my own CLI, I would have it make
+                            the process of pushing to GitHub a lot more
+                            streamlined. It's time consuming to continually have
+                            to "git add", "git commit", and "git push", then
+                            switch branches and pull and push again. I would
+                            like to create a command that will add and commit at
+                            once. Then another command that would pull from a
+                            dev branch then push up to GitHub at once. It would
+                            not only save time, but also help me not to miss
+                            steps in getting everything I've done correctly onto
+                            my GitHub.
+                        </p>
+
+                        <p>
+                            Last week, we started working with the React
+                            framework, and without a framework like that, I
+                            wouldn't even know where to begin with creating a
+                            multi-page website. That may just be my
+                            inexperience, but we've only done single-page
+                            applications with Vanilla JavaScript, but within
+                            React I can see how we would go beyond that. Without
+                            that framework, it seems like it would be very
+                            difficult to create multiple pages with multiple
+                            classes/components, so I am thankful for the
+                            experience learning the React framework!
                         </p>
                     </div>
                 </div>
