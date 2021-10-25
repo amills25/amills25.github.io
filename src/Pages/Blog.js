@@ -55,13 +55,13 @@ export default function AboutMe() {
                 <br></br>
 
                 <div className="container bg-white">
-                    <div className="row border border-dark border-5 rounded-3 postPic">
+                    <div className="row border border-dark border-5 rounded-3">
                         <div className="col"></div>
                         <h3 className="text-center">Week One</h3>
                         <div className="text-center">
                             <img
                                 src="./img/istockphoto-951162450-170667a.jpg"
-                                className="rounded img-fluid"
+                                className="rounded mx-auto d-block img-fluid postPic"
                                 alt="Track starting line"
                             />
                         </div>
