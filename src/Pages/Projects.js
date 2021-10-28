@@ -78,6 +78,14 @@ export default function AboutMe() {
                                     rel="noreferrer"
                                 >
                                     View Project
+                                </a>{" "}
+                                <a
+                                    href="https://github.com/amills25/AlarmClock"
+                                    className="btn border-dark"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    View Repo
                                 </a>
                             </div>
                         </div>
@@ -102,6 +110,14 @@ export default function AboutMe() {
                                     rel="noreferrer"
                                 >
                                     View Project
+                                </a>{" "}
+                                <a
+                                    href="https://github.com/amills25/WeatherApp"
+                                    className="btn border-dark"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    View Repo
                                 </a>
                             </div>
                         </div>
@@ -126,6 +142,14 @@ export default function AboutMe() {
                                     rel="noreferrer"
                                 >
                                     View Project
+                                </a>{" "}
+                                <a
+                                    href="https://github.com/amills25/TicTacToe"
+                                    className="btn border-dark"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    View Repo
                                 </a>
                             </div>
                         </div>
@@ -150,6 +174,49 @@ export default function AboutMe() {
                                     rel="noreferrer"
                                 >
                                     View Project
+                                </a>{" "}
+                                <a
+                                    href="https://github.com/amills25/todo"
+                                    className="btn border-dark"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    View Repo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="card text-center h-100">
+                            <img
+                                src="./img/FishingHooksSnip.png"
+                                className="card-img-top"
+                                alt="Fishing Hooks Project"
+                            />
+                            <div className="card-body">
+                                <h4 className="card-title">
+                                    Bait and Tackle Product Page
+                                </h4>
+                                <p className="card-text">
+                                    <b>Tech Stack:</b> HTML, CSS,
+                                    React-Bootstrap, JavaScript, React Hooks,
+                                    React-Router
+                                </p>
+                                <a
+                                    href="https://todo-570c8.web.app/"
+                                    className="btn border-dark"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    View Project
+                                </a>{" "}
+                                <a
+                                    href="https://github.com/amills25/fishing-hooks"
+                                    className="btn border-dark"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    View Repo
                                 </a>
                             </div>
                         </div>
