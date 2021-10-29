@@ -705,6 +705,42 @@ export default function AboutMe() {
 
                 <br></br>
 
+                <div className="container bg-white">
+                    <div className="row border border-dark border-5 rounded-3">
+                        <div className="col"></div>
+                        <h3 className="text-center">Week Ten</h3>
+                        <div className="text-center">
+                            <img
+                                src="./img/hurdle.jpg"
+                                className="rounded mx-auto d-block img-fluid postPic"
+                                alt="Hurdler"
+                            />
+                        </div>
+
+                        <p>
+                            How has React caused you to rethink websites and
+                            apps?
+                        </p>
+
+                        <p>
+                            Now that you are halfway through bootcamp, what has
+                            been the biggest hurdle that you have gone past?
+                            What do you think is going to be the next biggest
+                            thing to power through?
+                        </p>
+
+                        <p>
+                            Compared to earlier, what are three ideas you might
+                            want to do for your final project? Are they the same
+                            ideas as before, or have they changed now that you
+                            understand more about the technology and your
+                            limitations?
+                        </p>
+                    </div>
+                </div>
+
+                <br></br>
+
                 <script
                     src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
                     integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
