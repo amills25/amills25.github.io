@@ -718,23 +718,58 @@ export default function AboutMe() {
                         </div>
 
                         <p>
-                            How has React caused you to rethink websites and
-                            apps?
+                            Getting to experience working in React, I feel, has
+                            exponentially improved my web development progress.
+                            I'm not sure it has caused me to rethink websites,
+                            but it's added a new layer of abstraction to my
+                            ability, and helped me understand how websites
+                            really work. Up to this point, we had mostly been
+                            working on apps with a single URL and few state
+                            changes. With React and React Router, are are
+                            creating multiple pages and links within a single
+                            app, which adds infinite layering to what I can make
+                            now, and that's really exciting. Getting to work
+                            with React has helped me believe in myself to show
+                            that I can make websites like I visit every day,
+                            rather than just some functions making one single
+                            thing show up for an entire site.
                         </p>
 
                         <p>
-                            Now that you are halfway through bootcamp, what has
-                            been the biggest hurdle that you have gone past?
-                            What do you think is going to be the next biggest
-                            thing to power through?
+                            Each week in bootcamp feels like a new hurdle I have
+                            to learn how to jump over. Moving at such a fast
+                            pace, we're being given new big pieces to add to our
+                            repertoire every week. When React was first
+                            introduced to me, I felt like it was my biggest
+                            hurdle. I had a rough week that week, and it just
+                            felt like it wasn't clicking. But now that we're a
+                            few weeks into React, and we've been introduced to
+                            React Hooks and React Router, it's hard to imagine
+                            going back to Vanilla JavaScript without something
+                            like React. Moving into next week, I think back-end
+                            will be a whole new world to try to power through.
+                            I've enjoyed front-end, and I'm starting to feel
+                            comfortable doing it and watching the pages that I
+                            create show up on the page in front of me. I'm
+                            worried that going into back-end won't bring that
+                            same satisfaction as I work through it, and
+                            therefore be harder for me to grasp well. That said,
+                            I am excited to get into it and try it out, and
+                            hopefully I'll end up loving it too!
                         </p>
 
                         <p>
-                            Compared to earlier, what are three ideas you might
-                            want to do for your final project? Are they the same
-                            ideas as before, or have they changed now that you
-                            understand more about the technology and your
-                            limitations?
+                            Looking forward to the end of bootcamp, I'm still
+                            not sure what I want to do for a final project. We
+                            still haven't talked about it in bootcamp, so I'm
+                            not really sure what I need to be thinking of when
+                            it comes to what I might do. I think once we get
+                            into back-end languages and frameworks, I'll be able
+                            to get a better grasp on what I can and can't do, so
+                            I'll have a better idea of final project ideas. I do
+                            look forward to picking my own subject matter
+                            though, and being able to do somewhat of a "passion
+                            project" this early in my coding career.
                         </p>
                     </div>
                 </div>
