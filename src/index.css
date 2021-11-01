@@ -9,3 +9,28 @@ body {
 .postPic {
     max-height: 25vh;
 }
+
+.homebg {
+    background-image: url('./img/AMBlackMediumTrans.jpg'), url('./img/rock2.jpg'); 
+    background-position: center; 
+    background-size: auto, cover; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat, repeat;
+}
+
+.aboutLink {
+    padding-right: 1vw; 
+    position: static;
+}
+
+.blogLink {
+    padding-right: 5vw; 
+    position: static;
+}
+
+.projLink {
+    padding-right: 7vw; 
+    position: static;
+}
+
+
