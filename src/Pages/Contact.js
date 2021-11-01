@@ -1,8 +1,10 @@
 import React from "react";
+import Navbar from "../Components/Navbar";
 
 export default function Contact() {
     return (
         <>
+        <Navbar />
             <div className="container">
                 <div className="row" style="padding-top: 60px;">
                     <div className="col text-center">

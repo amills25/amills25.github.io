@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
     return (
@@ -23,11 +23,11 @@ export default function Navbar() {
                             id="navbarNavAltMarkup"
                         >
                             <div className="navbar-nav">
-                                <NavLink to="/home">Home</NavLink>
-                                <NavLink to="/about">About</NavLink>
-                                <NavLink to="/blog">Blog</NavLink>
-                                <NavLink to="/projects">Portfolio</NavLink>
-                                <NavLink to="/contact">Contact Me</NavLink>
+                                <NavLink className="nav-link fw-bold" to="/home">Home</NavLink>
+                                <NavLink className="nav-link fw-bold" to="/about">About</NavLink>
+                                <NavLink className="nav-link fw-bold" to="/blog">Blog</NavLink>
+                                <NavLink className="nav-link fw-bold" to="/projects">Portfolio</NavLink>
+                                <NavLink className="nav-link fw-bold" to="/contact">Contact Me</NavLink>
                             </div>
                         </div>
                     </div>

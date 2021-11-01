@@ -1,59 +1,16 @@
 import React from "react";
-// import Header from "./Components/Header";
-// import Navbar from "./Components/Navbar";
-// import Footer from "./Components/Footer";
+import Header from "../Components/Header";
+import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
 
 export default function AboutMe() {
     return (
         <>
-            <img
-                src="./img/AMBlackSmallTrans.jpg"
-                className="rounded img-fluid mx-auto d-block"
-                alt="Small Black Logo"
-            />
+            <Header />
 
             <h1 className="text-center">PORTFOLIO</h1>
 
-            <div className="container border border-dark border-5 rounded-3 bg-white">
-                <nav className="navbar navbar-expand-lg navbar-light">
-                    <div className="container-fluid">
-                        <button
-                            className="navbar-toggler"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#navbarNavAltMarkup"
-                            aria-controls="navbarNavAltMarkup"
-                            aria-expanded="false"
-                            aria-label="Toggle navigation"
-                        >
-                            <span className="navbar-toggler-icon"></span>
-                        </button>
-                        <div
-                            className="collapse navbar-collapse"
-                            id="navbarNavAltMarkup"
-                        >
-                            <div className="navbar-nav">
-                                <a className="nav-link fw-bold" href="#">
-                                    Home
-                                </a>
-                                <a
-                                    className="nav-link fw-bold"
-                                    aria-current="page"
-                                    href="#"
-                                >
-                                    About
-                                </a>
-                                <a className="nav-link fw-bold" href="#">
-                                    Blog
-                                </a>
-                                <a className="nav-link fw-bold" href="#">
-                                    Portfolio
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
-            </div>
+            <Navbar />
 
             <br></br>
 
@@ -226,17 +183,7 @@ export default function AboutMe() {
 
             <br></br>
 
-            <div className="row-1">
-                <div className="col text-center">
-                    <img
-                        src="./img/AMBlackSmallTrans.jpg"
-                        alt="Andrew Mills Logo"
-                        width="30"
-                        height="24"
-                    />
-                    Developed by Andrew Mills, 2021.
-                </div>
-            </div>
+            <Footer />
         </>
     );
 }
