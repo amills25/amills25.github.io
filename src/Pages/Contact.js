@@ -1,22 +1,23 @@
 import React from "react";
 import Navbar from "../Components/Navbar";
+import { Link, Button } from "react-router-dom";
+
 
 export default function Contact() {
     return (
         <>
-        <Navbar />
             <div className="container">
-                <div className="row" style="padding-top: 60px;">
+                <div className="row"> {/* style="padding-top: 60px;" */}
                     <div className="col text-center">
                         <img
                             src="./img/AMBlackXLTrans.jpg"
-                            className="rounded img-fluid"
+                            className="rounded img-fluid postPic"
                             alt="Small Black Logo"
-                            style="max-height:250px;"
+                            // style="max-height:250px;"
                         />
                         <h1
                             className="text-center fw-bold"
-                            style="font-size: 40px;"
+                            // style="font-size: 40px;"
                         >
                             Andrew Mills
                         </h1>
@@ -26,15 +27,18 @@ export default function Contact() {
             </div>
 
             <br></br>
-            <br></br>
 
             <div className="container">
+            <Navbar />
+
+            <br></br>
+
                 <div className="border border-dark border-5 rounded-3 bg-light">
                     <div className="col">
                         <h4 className="text-center fw-bold">Contact</h4>
                         <div className="row">
                             <div className="col-3">
-                                <a
+                                <Link
                                     className="btn"
                                     href="mailto:awmills25@gmail.com"
                                     role="button"
@@ -44,7 +48,7 @@ export default function Contact() {
                                         className="rounded socialLogo"
                                         alt="Email Logo"
                                     />
-                                </a>
+                                </Link>
                             </div>
                             <div className="col-9 fw-bold">
                                 <p>awmills25@gmail.com</p>
@@ -52,7 +56,7 @@ export default function Contact() {
                         </div>
                         <div className="row">
                             <div className="col-3">
-                                <a className="btn" href="#!" role="button">
+                                <a className="btn" href="#" tabindex="-1" role="button" aria-disabled="true">
                                     <img
                                         src="./img/Phone.svg"
                                         className="rounded socialLogo"
@@ -66,7 +70,7 @@ export default function Contact() {
                         </div>
                         <div className="row">
                             <div className="col-3">
-                                <a
+                                <Link
                                     className="btn"
                                     href="https://twitter.com/a_mills25"
                                     target="_blank"
@@ -77,7 +81,7 @@ export default function Contact() {
                                         className="rounded socialLogo"
                                         alt="Twitter Logo"
                                     />
-                                </a>
+                                </Link>
                             </div>
                             <div className="col-9 fw-bold">
                                 <p>a_mills25</p>
@@ -85,7 +89,7 @@ export default function Contact() {
                         </div>
                         <div className="row">
                             <div className="col-3">
-                                <a
+                                <Link
                                     className="btn"
                                     href="https://github.com/amills25"
                                     target="_blank"
@@ -96,7 +100,7 @@ export default function Contact() {
                                         className="rounded socialLogo"
                                         alt="Github Logo"
                                     />
-                                </a>
+                                </Link>
                             </div>
                             <div className="col-9 fw-bold">
                                 <p>amills25</p>
