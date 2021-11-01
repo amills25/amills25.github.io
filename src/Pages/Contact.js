@@ -28,8 +28,8 @@ export default function Contact() {
 
             <br></br>
 
-            <div className="container">
             <Navbar />
+            <div className="container col-2">
 
             <br></br>
 
