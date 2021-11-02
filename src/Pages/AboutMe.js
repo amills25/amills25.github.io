@@ -10,19 +10,17 @@ export default function AboutMe() {
 
             <h1 className="text-center">ABOUT ME</h1>
 
+            <div className="container col-5">
             <Navbar />
-
             <br></br>
-
-            <div className="container col-4 bg-white">
-                <div className="row border border-dark border-5 rounded-3">
-                    <div className="col"></div>
+                <div className="border border-dark border-5 rounded-3 bg-white">
+                    <div className="col-5"></div>
                     <h2 className="text-center">Andrew Mills</h2>
                     <div className="text-center">
                         <img
                             src="./img/glory.png"
                             className="rounded img-fluid"
-                            alt="Image of Andrew"
+                            alt="Andrew Mills"
                         />
                     </div>
 

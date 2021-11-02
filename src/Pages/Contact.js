@@ -16,27 +16,24 @@ export default function Contact() {
                             alt="Small Black Logo"
                         />
                         <h1
-                            className="text-center fw-bold"
+                            className="text-center fw-bold text-black"
                         >
                             Andrew Mills
                         </h1>
-                        <h4 className="text-center fw-bold">Web Developer</h4>
+                        <h4 className="text-center fw-bold text-black">Web Developer</h4>
                     </div>
                 </div>
             </div>
 
-            <br></br>
 
+            <div className="container col-5">
             <Navbar />
-            <div className="container col-2">
-
             <br></br>
-
                 <div className="border border-dark border-5 rounded-3 bg-white">
                     <div className="col">
                         <h4 className="text-center fw-bold contH">Contact</h4>
                         <div className="row">
-                            <div className="col-3">
+                            <div className="col-5 text-end">
                                 <Link
                                     className="btn"
                                     href="mailto:awmills25@gmail.com"
@@ -49,12 +46,12 @@ export default function Contact() {
                                     />
                                 </Link>
                             </div>
-                            <div className="col-9 fw-bold">
+                            <div className="col-7 fw-bold">
                                 <p className="contH">awmills25@gmail.com</p>
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-3">
+                            <div className="col-5 text-end">
                                 <a className="btn" href="#" tabindex="-1" role="button" aria-disabled="true">
                                     <img
                                         src="./img/Phone.svg"
@@ -63,12 +60,12 @@ export default function Contact() {
                                     />
                                 </a>
                             </div>
-                            <div className="col-9 fw-bold">
+                            <div className="col-7 fw-bold">
                                 <p className="contH">859.327.0988</p>
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-3">
+                            <div className="col-5 text-end">
                                 <Link
                                     className="btn"
                                     href="https://twitter.com/a_mills25"
@@ -82,12 +79,12 @@ export default function Contact() {
                                     />
                                 </Link>
                             </div>
-                            <div className="col-9 fw-bold">
+                            <div className="col-7 fw-bold">
                                 <p className="contH">a_mills25</p>
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-3">
+                            <div className="col-5 text-end">
                                 <Link
                                     className="btn"
                                     href="https://github.com/amills25"
@@ -101,7 +98,7 @@ export default function Contact() {
                                     />
                                 </Link>
                             </div>
-                            <div className="col-9 fw-bold">
+                            <div className="col-7 fw-bold">
                                 <p className="contH">amills25</p>
                             </div>
                         </div>

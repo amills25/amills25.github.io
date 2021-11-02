@@ -8,7 +8,7 @@ export default function AboutMe() {
         <>
             <body className="bg-opacity-10;">
                 <Header />
-                <h1 className="text-center">Bootcamp Blog</h1>
+                <h1 className="text-center">BOOTCAMP BLOG</h1>
 
                 <Navbar />
 

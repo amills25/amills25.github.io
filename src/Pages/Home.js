@@ -13,8 +13,7 @@ export default function Home() {
             <div className="container">
                 <div className="row bg-transparent">
                     <div className="col">
-                        <h1 className="text-center fw-bold text-black">Andrew Mills</h1>
-            <br></br>
+                        <h1 className="text-center fw-bold text-black display-3">ANDREW MILLS</h1>
             <br></br>
             <br></br>
             <br></br>
