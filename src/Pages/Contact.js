@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
 import { Link, Button } from "react-router-dom";
 
 
@@ -108,6 +109,9 @@ export default function Contact() {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="fixed-bottom">
+                <Footer />
             </div>
         </>
     );

@@ -74,7 +74,9 @@ export default function Home() {
                 </div>
             </div>
 
-            <Footer />
+            <div className="fixed-bottom">
+                <Footer />
+            </div>
 
         </body>
     )
