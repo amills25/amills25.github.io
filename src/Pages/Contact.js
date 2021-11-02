@@ -36,7 +36,7 @@ export default function Contact() {
 
                 <div className="border border-dark border-5 rounded-3 bg-white">
                     <div className="col">
-                        <h4 className="text-center fw-bold">Contact</h4>
+                        <h4 className="text-center fw-bold contH">Contact</h4>
                         <div className="row">
                             <div className="col-3">
                                 <Link
@@ -52,7 +52,7 @@ export default function Contact() {
                                 </Link>
                             </div>
                             <div className="col-9 fw-bold">
-                                <p>awmills25@gmail.com</p>
+                                <p className="contH">awmills25@gmail.com</p>
                             </div>
                         </div>
                         <div className="row">
@@ -66,7 +66,7 @@ export default function Contact() {
                                 </a>
                             </div>
                             <div className="col-9 fw-bold">
-                                <p>859.327.0988</p>
+                                <p className="contH">859.327.0988</p>
                             </div>
                         </div>
                         <div className="row">
@@ -85,7 +85,7 @@ export default function Contact() {
                                 </Link>
                             </div>
                             <div className="col-9 fw-bold">
-                                <p>a_mills25</p>
+                                <p className="contH">a_mills25</p>
                             </div>
                         </div>
                         <div className="row">
@@ -104,7 +104,7 @@ export default function Contact() {
                                 </Link>
                             </div>
                             <div className="col-9 fw-bold">
-                                <p>amills25</p>
+                                <p className="contH">amills25</p>
                             </div>
                         </div>
                     </div>
