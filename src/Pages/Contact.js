@@ -1,24 +1,22 @@
 import React from "react";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
-import { Link, Button } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 export default function Contact() {
     return (
         <>
             <div className="container">
-                <div className="row"> {/* style="padding-top: 60px;" */}
+                <div className="row"> 
                     <div className="col text-center">
                         <img
                             src="./img/AMBlackXLTrans.jpg"
                             className="rounded img-fluid postPic"
                             alt="Small Black Logo"
-                            // style="max-height:250px;"
                         />
                         <h1
                             className="text-center fw-bold"
-                            // style="font-size: 40px;"
                         >
                             Andrew Mills
                         </h1>
