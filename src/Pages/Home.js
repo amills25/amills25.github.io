@@ -27,7 +27,7 @@ export default function Home() {
                             </div>
                             <div className="col-4">
                                 <NavLink 
-                                    className="nav-link fw-bold text-dark fs-2 text-uppercase text-black aboutLink" 
+                                    className="nav-link fw-bold fs-2 text-uppercase text-black aboutLink" 
                                     to="/about"
                                 >
                                     About
@@ -35,7 +35,7 @@ export default function Home() {
                             </div>
                             <div className="col-3">
                                 <NavLink 
-                                    className="nav-link fw-bold text-dark fs-2 text-uppercase text-black blogLink" 
+                                    className="nav-link fw-bold fs-2 text-uppercase text-black blogLink" 
                                     to="/blog"
                                 >
                                     Blog
@@ -56,7 +56,7 @@ export default function Home() {
                         <div className="row text-center">
                             <div className="col-6">
                                 <NavLink 
-                                    className="nav-link fw-bold text-dark fs-2 text-uppercase text-black projLink" 
+                                    className="nav-link fw-bold fs-2 text-uppercase text-black projLink" 
                                     to="/projects">
                                         Portfolio
                                 </NavLink>
@@ -64,7 +64,7 @@ export default function Home() {
                             <div 
                                 className="col-6"                             >
                                 <NavLink 
-                                    className="nav-link fw-bold text-dark fs-2 text-uppercase text-black blogLink" 
+                                    className="nav-link fw-bold fs-2 text-uppercase text-black blogLink" 
                                     to="/contact"
                                 >
                                     Contact
