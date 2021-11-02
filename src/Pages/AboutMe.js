@@ -14,7 +14,7 @@ export default function AboutMe() {
 
             <br></br>
 
-            <div className="container bg-white">
+            <div className="container col-4 bg-white">
                 <div className="row border border-dark border-5 rounded-3">
                     <div className="col"></div>
                     <h2 className="text-center">Andrew Mills</h2>
@@ -26,18 +26,20 @@ export default function AboutMe() {
                         />
                     </div>
 
-                    <h3>Currently, I'm:</h3>
-                    <ul>An aspiring web developer</ul>
+                    <row className="text-center">
+                        <h3>Currently, I'm:</h3>
+                        <p>An aspiring web developer</p>
 
-                    <h3>Previously, I:</h3>
-                    <ul>Spent five years as an insurance agent</ul>
-                    <ul>Did years of volunteer ministry with high schoolers</ul>
+                        <h3>Previously, I:</h3>
+                        <p>Spent five years as an insurance agent</p>
+                        <p>Did years of volunteer ministry with high schoolers</p>
 
-                    <h3>In my free time, I enjoy:</h3>
-                    <ul>Exploring My Old Kentucky Home</ul>
-                    <ul>Playing fantasy sports</ul>
-                    <ul>Cheering on the Kentucky Wildcats</ul>
-                    <ul>Trying out new restaurants</ul>
+                        <h3>In my free time, I enjoy:</h3>
+                        <p>Exploring My Old Kentucky Home</p>
+                        <p>Playing fantasy sports</p>
+                        <p>Cheering on the Kentucky Wildcats</p>
+                        <p>Trying out new restaurants</p>
+                    </row>
                 </div>
             </div>
             <Footer />

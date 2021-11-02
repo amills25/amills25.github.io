@@ -34,7 +34,7 @@ export default function Contact() {
 
             <br></br>
 
-                <div className="border border-dark border-5 rounded-3 bg-light">
+                <div className="border border-dark border-5 rounded-3 bg-white">
                     <div className="col">
                         <h4 className="text-center fw-bold">Contact</h4>
                         <div className="row">
