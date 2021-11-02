@@ -1,56 +1,16 @@
 import React from "react";
+import Navbar from "../Components/Navbar";
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 
 export default function AboutMe() {
     return (
         <>
             <body className="bg-opacity-10;">
-                <img
-                    src="./img/AMBlackXLTrans.jpg"
-                    className="rounded img-fluid mx-auto d-block postPic"
-                    alt="Small Black Logo"
-                />
-                <h1 className="text-center">Bootcamp Blog</h1>
+                <Header />
+                <h1 className="text-center">BOOTCAMP BLOG</h1>
 
-                <div className="container border border-dark border-5 rounded-3 bg-white">
-                    <nav className="navbar navbar-expand-lg navbar-light">
-                        <div className="container-fluid">
-                            <button
-                                className="navbar-toggler"
-                                type="button"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#navbarNavAltMarkup"
-                                aria-controls="navbarNavAltMarkup"
-                                aria-expanded="false"
-                                aria-label="Toggle navigation"
-                            >
-                                <span className="navbar-toggler-icon"></span>
-                            </button>
-                            <div
-                                className="collapse navbar-collapse"
-                                id="navbarNavAltMarkup"
-                            >
-                                <div className="navbar-nav">
-                                    <a className="nav-link fw-bold" href="#">
-                                        Home
-                                    </a>
-                                    <a className="nav-link fw-bold" href="#">
-                                        About
-                                    </a>
-                                    <a
-                                        className="nav-link fw-bold"
-                                        aria-current="page"
-                                        href="#"
-                                    >
-                                        Blog
-                                    </a>
-                                    <a className="nav-link fw-bold" href="#">
-                                        Portfolio
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
+                <Navbar />
 
                 <br></br>
 
@@ -773,15 +733,8 @@ export default function AboutMe() {
                         </p>
                     </div>
                 </div>
-
-                <br></br>
-
-                <script
-                    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-                    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-                    crossorigin="anonymous"
-                ></script>
             </body>
+            <Footer />
         </>
     );
 }

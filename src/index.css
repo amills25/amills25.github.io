@@ -9,3 +9,41 @@ body {
 .postPic {
     max-height: 25vh;
 }
+
+.homebg {
+    background-image: url('./img/AMBlackMediumTrans.jpg'), url('./img/rock2.jpg'); 
+    background-position: center; 
+    background-size: auto, cover; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat, repeat;
+    min-height: 700px;
+}
+
+.aboutLink {
+    padding-right: 1vw; 
+    position: static;
+}
+
+.blogLink {
+    padding-right: 5vw; 
+    position: static;
+}
+
+.projLink {
+    padding-right: 7vw; 
+    position: static;
+}
+
+.socialLogo {
+    height: 20px;
+    padding-left: 20px;
+}
+
+/* .nav-link {
+    padding-left: 1.5vw !important;
+    padding-right: auto !important;
+} */
+
+.contH {
+    padding-top: 10px;
+}

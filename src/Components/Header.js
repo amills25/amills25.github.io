@@ -5,9 +5,8 @@ export default function Header() {
         <>
             <img
                 src="./img/AMBlackXLTrans.jpg"
-                className="rounded img-fluid mx-auto d-block"
+                className="rounded img-fluid mx-auto d-block postPic"
                 alt="Small Black Logo"
-                style="max-height:250px;"
             />
         </>
     );

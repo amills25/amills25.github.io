@@ -1,38 +1,40 @@
 import React from "react";
+import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
+import { Link } from "react-router-dom";
+
 
 export default function Contact() {
     return (
         <>
             <div className="container">
-                <div className="row" style="padding-top: 60px;">
+                <div className="row"> 
                     <div className="col text-center">
                         <img
                             src="./img/AMBlackXLTrans.jpg"
-                            className="rounded img-fluid"
+                            className="rounded img-fluid postPic"
                             alt="Small Black Logo"
-                            style="max-height:250px;"
                         />
                         <h1
-                            className="text-center fw-bold"
-                            style="font-size: 40px;"
+                            className="text-center fw-bold text-black"
                         >
                             Andrew Mills
                         </h1>
-                        <h4 className="text-center fw-bold">Web Developer</h4>
+                        <h4 className="text-center fw-bold text-black">Web Developer</h4>
                     </div>
                 </div>
             </div>
 
-            <br></br>
-            <br></br>
 
-            <div className="container">
-                <div className="border border-dark border-5 rounded-3 bg-light">
+            <div className="container col-5">
+            <Navbar />
+            <br></br>
+                <div className="border border-dark border-5 rounded-3 bg-white">
                     <div className="col">
-                        <h4 className="text-center fw-bold">Contact</h4>
+                        <h4 className="text-center fw-bold contH">Contact</h4>
                         <div className="row">
-                            <div className="col-3">
-                                <a
+                            <div className="col-5 text-end">
+                                <Link
                                     className="btn"
                                     href="mailto:awmills25@gmail.com"
                                     role="button"
@@ -42,15 +44,15 @@ export default function Contact() {
                                         className="rounded socialLogo"
                                         alt="Email Logo"
                                     />
-                                </a>
+                                </Link>
                             </div>
-                            <div className="col-9 fw-bold">
-                                <p>awmills25@gmail.com</p>
+                            <div className="col-7 fw-bold">
+                                <p className="contH">awmills25@gmail.com</p>
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-3">
-                                <a className="btn" href="#!" role="button">
+                            <div className="col-5 text-end">
+                                <a className="btn" href="#" tabindex="-1" role="button" aria-disabled="true">
                                     <img
                                         src="./img/Phone.svg"
                                         className="rounded socialLogo"
@@ -58,13 +60,13 @@ export default function Contact() {
                                     />
                                 </a>
                             </div>
-                            <div className="col-9 fw-bold">
-                                <p>859.327.0988</p>
+                            <div className="col-7 fw-bold">
+                                <p className="contH">859.327.0988</p>
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-3">
-                                <a
+                            <div className="col-5 text-end">
+                                <Link
                                     className="btn"
                                     href="https://twitter.com/a_mills25"
                                     target="_blank"
@@ -75,15 +77,15 @@ export default function Contact() {
                                         className="rounded socialLogo"
                                         alt="Twitter Logo"
                                     />
-                                </a>
+                                </Link>
                             </div>
-                            <div className="col-9 fw-bold">
-                                <p>a_mills25</p>
+                            <div className="col-7 fw-bold">
+                                <p className="contH">a_mills25</p>
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-3">
-                                <a
+                            <div className="col-5 text-end">
+                                <Link
                                     className="btn"
                                     href="https://github.com/amills25"
                                     target="_blank"
@@ -94,14 +96,17 @@ export default function Contact() {
                                         className="rounded socialLogo"
                                         alt="Github Logo"
                                     />
-                                </a>
+                                </Link>
                             </div>
-                            <div className="col-9 fw-bold">
-                                <p>amills25</p>
+                            <div className="col-7 fw-bold">
+                                <p className="contH">amills25</p>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="fixed-bottom">
+                <Footer />
             </div>
         </>
     );
