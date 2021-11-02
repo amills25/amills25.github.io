@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 
 export default function Home() {
     return (
+        <>
         <body className="homebg">
 
             <br></br>
@@ -79,5 +80,6 @@ export default function Home() {
             </div>
 
         </body>
+        </>
     )
 }
