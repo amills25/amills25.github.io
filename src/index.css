@@ -1,42 +1,47 @@
 body {
-    background-image: url("./img/rock2.jpg");
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+  background-image: url("./img/rock2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .postPic {
-    max-height: 25vh;
+  max-height: 25vh;
 }
 
 .homebg {
-    background-image: url('./img/AMBlackMediumTrans.jpg'), url('./img/rock2.jpg'); 
-    background-position: center; 
-    background-size: auto, cover; 
-    background-attachment: fixed; 
-    background-repeat: no-repeat, repeat;
-    min-height: 700px;
+  background-image: url("./img/AMBlackMediumTrans.jpg"), url("./img/rock2.jpg");
+  background-position: center;
+  background-size: auto, cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat, repeat;
+  min-height: 700px;
 }
 
 .aboutLink {
-    padding-right: 1vw; 
-    position: static;
+  padding-right: 1vw;
+  position: static;
 }
 
 .blogLink {
-    padding-right: 5vw; 
-    position: static;
+  /* padding-right: 5vw;  */
+  position: static;
 }
 
 .projLink {
-    padding-right: 7vw; 
-    position: static;
+  padding-right: 7vw;
+  position: static;
+}
+
+.contLink {
+  padding-right: 5vw;
+  position: static;
 }
 
 .socialLogo {
-    height: 20px;
-    padding-left: 20px;
+  height: 20px;
+  padding-left: 20px;
 }
 
 /* .nav-link {
@@ -45,5 +50,5 @@ body {
 } */
 
 .contH {
-    padding-top: 10px;
+  padding-top: 10px;
 }
