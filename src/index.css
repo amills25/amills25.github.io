@@ -6,10 +6,6 @@ body {
   background-repeat: no-repeat;
 }
 
-.postPic {
-  max-height: 25vh;
-}
-
 /* .homebg {
   background-image: url("./img/AMBlackMediumTrans.jpg"), url("./img/rock2.jpg");
   background-position: center;
@@ -23,15 +19,8 @@ body {
   font-family: monospace;
 }
 
-.homebg {
-  background-image: url("./img/rock2.jpg");
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: repeat;
-  /* min-height: 700px; */
+@media only screen and (max-width: 600px) {
 }
-
 .homeHover {
   position: relative;
   width: 50%;
@@ -77,40 +66,6 @@ body {
   opacity: 1;
 }
 
-.aboutLink {
-  padding-right: 1vw;
-  position: static;
-}
-
-.blogLink {
-  /* padding-right: 5vw;  */
-  position: static;
-}
-
-.projLink {
-  padding-right: 7vw;
-  position: static;
-}
-
-.contLink {
-  /* padding-right: 5vw; */
-  position: static;
-}
-
-.socialLogo {
-  height: 20px;
-  padding-left: 20px;
-}
-
-/* .nav-link {
-    padding-left: 1.5vw !important;
-    padding-right: auto !important;
-} */
-
-.contH {
-  padding-top: 10px;
-}
-
 .typewriter {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   /* border-right: 0.15em solid black; The typwriter cursor */
@@ -139,4 +94,17 @@ body {
   50% {
     border-color: black;
   }
+}
+
+.postPic {
+  max-height: 25vh;
+}
+
+.socialLogo {
+  height: 20px;
+  padding-left: 20px;
+}
+
+.contH {
+  padding-top: 10px;
 }

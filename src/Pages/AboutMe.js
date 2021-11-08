@@ -8,7 +8,7 @@ export default function AboutMe() {
     <>
       <Header />
 
-      <h1 className="text-center myFont typewriter">ABOUT ME.</h1>
+      <h1 className="text-center myFont typewriter">ABOUT ME</h1>
 
       <Navbar />
       <div className="container col-md-5 col-sm-12">
