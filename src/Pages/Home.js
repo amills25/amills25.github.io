@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 export default function Home() {
   return (
     <>
-      <body className="homebg">
+      <body>
         <br></br>
 
         <div className="container">
@@ -21,7 +21,7 @@ export default function Home() {
                 <img
                   src="./img/AMBlackMediumTrans.jpg"
                   alt="Mills Logo"
-                  className="image"
+                  className="image img-fluid"
                 />
                 <div className="overlay">
                   <nav>
@@ -34,9 +34,11 @@ export default function Home() {
                   </nav>
                 </div>
               </div>
-              <h1 className="text-center fw-bold text-black myFont typewriter">
-                Full-stack web developer.
-              </h1>
+              <div className="container-fluid">
+                <h1 className="text-center fw-bold text-black myFont typewriter">
+                  Full-stack dev.
+                </h1>
+              </div>
             </div>
           </div>
         </div>

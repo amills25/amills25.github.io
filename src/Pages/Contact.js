@@ -1,24 +1,21 @@
 import React from "react";
 import Navbar from "../Components/Navbar";
+import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 import { Link } from "react-router-dom";
 
 export default function Contact() {
   return (
     <>
+      <Header />
       <div className="container">
         <div className="row">
           <div className="col text-center">
-            <img
-              src="./img/AMBlackXLTrans.jpg"
-              className="rounded img-fluid postPic"
-              alt="Small Black Logo"
-            />
             <h1 className="text-center fw-bold text-black myFont">
               Andrew Mills
             </h1>
             <h4 className="text-center fw-bold text-black myFont typewriter">
-              Web Developer.
+              Web Developer
             </h4>
           </div>
         </div>
