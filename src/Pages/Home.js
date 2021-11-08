@@ -7,7 +7,6 @@ export default function Home() {
     <>
       <body className="homebg">
         <br></br>
-        <br></br>
 
         <div className="container">
           <div className="row bg-transparent">
