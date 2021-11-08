@@ -11,70 +11,35 @@ export default function Home() {
 
         <div className="container">
           <div className="row bg-transparent">
-            <div className="col">
-              <h1 className="text-center fw-bold text-black display-3">
-                ANDREW MILLS
+            <div className="col text-center">
+              <br></br>
+
+              <h1 className="text-center fw-bold text-black display-1 myFont">
+                Andrew Mills
               </h1>
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
 
-              <div className="row text-center">
-                <div className="col-2"></div>
-                <div className="col-4">
-                  <NavLink
-                    className="nav-link fw-bold fs-2 text-uppercase text-black aboutLink"
-                    to="/about"
-                  >
-                    About
-                  </NavLink>
-                </div>
-                <div className="col-3">
-                  <NavLink
-                    className="nav-link fw-bold fs-2 text-uppercase text-black blogLink"
-                    to="/blog"
-                  >
-                    Blog
-                  </NavLink>
-                </div>
-                <div className="col-3"></div>
-              </div>
-
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-
-              <div className="row text-center">
-                <div className="col-6">
-                  <NavLink
-                    className="nav-link fw-bold fs-2 text-uppercase text-black projLink"
-                    to="/projects"
-                  >
-                    Portfolio
-                  </NavLink>
-                </div>
-                <div className="col-6">
-                  <NavLink
-                    className="nav-link fw-bold fs-2 text-uppercase text-black contLink"
-                    to="/contact"
-                  >
-                    Contact
-                  </NavLink>
+              <div className="homeHover">
+                <img
+                  src="./img/AMBlackMediumTrans.jpg"
+                  alt="Mills Logo"
+                  className="image"
+                />
+                <div className="overlay">
+                  <nav>
+                    <NavLink
+                      className="nav-link fw-bold bg-transparent text-black text"
+                      to="/about"
+                    >
+                      ENTER
+                    </NavLink>
+                  </nav>
                 </div>
               </div>
+              <h1 className="text-center fw-bold text-black myFont typewriter">
+                Full-stack web developer.
+              </h1>
             </div>
           </div>
-        </div>
-
-        <div className="fixed-bottom">
-          <Footer />
         </div>
       </body>
     </>
