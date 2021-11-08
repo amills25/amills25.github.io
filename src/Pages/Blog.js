@@ -8,7 +8,7 @@ export default function AboutMe() {
     <>
       <body className="bg-opacity-10;">
         <Header />
-        <h1 className="text-center">BOOTCAMP BLOG</h1>
+        <h1 className="text-center myFont typewriter">BOOTCAMP BLOG.</h1>
 
         <Navbar />
 
@@ -643,6 +643,7 @@ export default function AboutMe() {
             </p>
           </div>
         </div>
+<<<<<<< HEAD
 
         <br></br>
 
@@ -691,6 +692,8 @@ export default function AboutMe() {
             </p>
           </div>
         </div>
+=======
+>>>>>>> e68ee11fd96ff811ce37cc586936126101bb224e
       </body>
       <Footer />
     </>
