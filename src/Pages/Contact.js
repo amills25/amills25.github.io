@@ -29,7 +29,7 @@ export default function Contact() {
             <h4 className="text-center fw-bold contH">Contact</h4>
             <div className="row">
               <div className="col-5 text-end">
-                <Link
+                <a
                   className="btn"
                   href="mailto:awmills25@gmail.com"
                   role="button"
@@ -39,7 +39,7 @@ export default function Contact() {
                     className="rounded socialLogo"
                     alt="Email Logo"
                   />
-                </Link>
+                </a>
               </div>
               <div className="col-7 fw-bold">
                 <p className="contH">awmills25@gmail.com</p>
@@ -67,7 +67,7 @@ export default function Contact() {
             </div>
             <div className="row">
               <div className="col-5 text-end">
-                <Link
+                <a
                   className="btn"
                   href="https://twitter.com/a_mills25"
                   target="_blank"
@@ -78,7 +78,7 @@ export default function Contact() {
                     className="rounded socialLogo"
                     alt="Twitter Logo"
                   />
-                </Link>
+                </a>
               </div>
               <div className="col-7 fw-bold">
                 <p className="contH">a_mills25</p>
@@ -86,7 +86,7 @@ export default function Contact() {
             </div>
             <div className="row">
               <div className="col-5 text-end">
-                <Link
+                <a
                   className="btn"
                   href="https://github.com/amills25"
                   target="_blank"
@@ -97,7 +97,7 @@ export default function Contact() {
                     className="rounded socialLogo"
                     alt="Github Logo"
                   />
-                </Link>
+                </a>
               </div>
               <div className="col-7 fw-bold">
                 <p className="contH">amills25</p>
