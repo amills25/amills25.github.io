@@ -28,22 +28,24 @@ export default function AboutMe() {
                 <p className="card-text">
                   <b>Tech Stack:</b> HTML, CSS, JavaScript
                 </p>
-                <a
-                  href="https://amills25.github.io/AlarmClock/"
-                  className="btn border-dark"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  View Project
-                </a>{" "}
-                <a
-                  href="https://github.com/amills25/AlarmClock"
-                  className="btn border-dark"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  View Repo
-                </a>
+                <div className="row justify-content-center">
+                  <a
+                    href="https://amills25.github.io/AlarmClock/"
+                    className="btn border-dark col-4 mx-1"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    View Project
+                  </a>{" "}
+                  <a
+                    href="https://github.com/amills25/AlarmClock"
+                    className="btn border-dark col-4 mx-1"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    View Repo
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -59,22 +61,24 @@ export default function AboutMe() {
                 <p className="card-text">
                   <b>Tech Stack:</b> HTML, CSS, Bootstrap, JavaScript
                 </p>
-                <a
-                  href="https://amills25.github.io/WeatherApp/"
-                  className="btn border-dark"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  View Project
-                </a>{" "}
-                <a
-                  href="https://github.com/amills25/WeatherApp"
-                  className="btn border-dark"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  View Repo
-                </a>
+                <div className="row justify-content-center">
+                  <a
+                    href="https://amills25.github.io/WeatherApp/"
+                    className="btn border-dark col-4 mx-1"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    View Project
+                  </a>{" "}
+                  <a
+                    href="https://github.com/amills25/WeatherApp"
+                    className="btn border-dark col-4 mx-1"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    View Repo
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -90,22 +94,24 @@ export default function AboutMe() {
                 <p className="card-text">
                   <b>Tech Stack:</b> HTML, CSS, Bootstrap, JavaScript
                 </p>
-                <a
-                  href="https://amills25.github.io/TicTacToe/"
-                  className="btn border-dark"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  View Project
-                </a>{" "}
-                <a
-                  href="https://github.com/amills25/TicTacToe"
-                  className="btn border-dark"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  View Repo
-                </a>
+                <div className="row justify-content-center">
+                  <a
+                    href="https://amills25.github.io/TicTacToe/"
+                    className="btn border-dark col-4 mx-1"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    View Project
+                  </a>{" "}
+                  <a
+                    href="https://github.com/amills25/TicTacToe"
+                    className="btn border-dark col-4 mx-1"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    View Repo
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -121,22 +127,24 @@ export default function AboutMe() {
                 <p className="card-text">
                   <b>Tech Stack:</b> HTML, CSS, Bootstrap, JavaScript, React
                 </p>
-                <a
-                  href="https://todo-570c8.web.app/"
-                  className="btn border-dark"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  View Project
-                </a>{" "}
-                <a
-                  href="https://github.com/amills25/todo"
-                  className="btn border-dark"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  View Repo
-                </a>
+                <div className="row justify-content-center">
+                  <a
+                    href="https://todo-570c8.web.app/"
+                    className="btn border-dark col-4 mx-1"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    View Project
+                  </a>{" "}
+                  <a
+                    href="https://github.com/amills25/todo"
+                    className="btn border-dark col-4 mx-1"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    View Repo
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -153,22 +161,24 @@ export default function AboutMe() {
                   <b>Tech Stack:</b> HTML, CSS, React-Bootstrap, JavaScript,
                   React Hooks, React-Router
                 </p>
-                <a
-                  href="https://fishing-hooks-6464e.web.app/"
-                  className="btn border-dark"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  View Project
-                </a>{" "}
-                <a
-                  href="https://github.com/amills25/fishing-hooks"
-                  className="btn border-dark"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  View Repo
-                </a>
+                <div className="row justify-content-center">
+                  <a
+                    href="https://fishing-hooks-6464e.web.app/"
+                    className="btn border-dark col-4 mx-1"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    View Project
+                  </a>{" "}
+                  <a
+                    href="https://github.com/amills25/fishing-hooks"
+                    className="btn border-dark col-4 mx-1"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    View Repo
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -186,22 +196,24 @@ export default function AboutMe() {
                   request meetings, Code reviews, Team management, Scrum project
                   management.
                 </p>
-                <a
-                  href="https://cat-steves.web.app/"
-                  className="btn border-dark"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  View Project
-                </a>{" "}
-                <a
-                  href="https://github.com/amills25/FishingGroup"
-                  className="btn border-dark"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  View Repo
-                </a>
+                <div className="row justify-content-center">
+                  <a
+                    href="https://cat-steves.web.app/"
+                    className="btn border-dark col-4 mx-1"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    View Project
+                  </a>{" "}
+                  <a
+                    href="https://github.com/amills25/FishingGroup"
+                    className="btn border-dark col-4 mx-1"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    View Repo
+                  </a>
+                </div>
               </div>
             </div>
           </div>
