@@ -691,8 +691,6 @@ export default function AboutMe() {
             </p>
           </div>
         </div>
-<<<<<<< HEAD
-=======
 
         <br></br>
 
@@ -758,7 +756,6 @@ export default function AboutMe() {
             </p>
           </div>
         </div>
->>>>>>> 3122a84089600d9cf650d50128b1875d6c03cbd4
       </body>
       <Footer />
     </>
