@@ -702,24 +702,57 @@ export default function AboutMe() {
               <img
                 src="./img/braincode.png"
                 className="rounded mx-auto d-block img-fluid postPic"
-                alt="Database logo"
+                alt="Techincal brain"
               />
             </div>
 
             <p>
-              What are your thoughts about how far you have come? How has your
-              Digital Literacy, Computational Thinking, and Adoption of Coding
-              Culture increased?
+              After 3/4 of bootcamp, it's pretty incredible to look back and see
+              how far I (and my fellow bootcampers) have come. To think that
+              just three months ago, we didn't know how to make simple HTML
+              pages, to now making full websites and have experience with
+              different front-end and back-end languages is crazy. I've always
+              been one that can pretty natually adapt to the environment and
+              people around me, so it hasn't been to hard to adopt coding
+              culture, but I've seen a big increase in my digital literacy. I
+              have always been pretty tech-savvy, but it was never a full-time
+              experience for me. Working on computers and typing all day,
+              everyday has drastically increased how quickly I can do tasks and
+              complete tasks on the computer which is really cool. The
+              computational thinking aspect of all of this is just like any
+              other logic problem, and a lot of that comes from experience. As
+              long as you can recognize patterns, you will do fine with
+              computational thinking, and it should only improve over time. That
+              has been my experience, at least.
             </p>
 
             <p>
-              What are you struggling with the most in the Tech Stack so far and
-              why?
+              At this point, I am having more trouble with MySQL than anything
+              else, I'd say. I think that's largely in nature to that being one
+              of the more recent things we've learned, and it being different
+              than everything else we've done. PHP has a lot of similarities to
+              JavaScript, and Laravel has a lot of structure. MySQL feels a
+              little bit like the wild west, it has a different syntax than I'm
+              used to, and it can get pretty deeply nested and complicated. That
+              said, like everything else, it will come with practice. I felt
+              similarly to React at first, but once I used it for a few weeks
+              and started using Hooks, I became comfortable with it and became a
+              big fan. I'm sure MySQL will get a lot better with time and more
+              pattern recognition.
             </p>
 
             <p>
-              What companies or people (local or not) would you like to hear
-              talk during a Bootcamp lunch and learn?
+              I'm open to just about anything on the job front at this point. I
+              don't think it would hurt to gain intel and hear from any company
+              right now. The more info the better. That said, I would love to
+              hear from people inside of VetData, since that has been talked
+              about as a coveted company around here. I'd like to hear from a
+              small local company like Legit Apps that makes apps rather than
+              simply web development. If possible, I think it would be really
+              cool to hear from a big company like Oracle also, just to get that
+              different perspective. Again, more information right now will only
+              help me, so I'd love to hear from as many different companies as
+              possible to get a better grasp on what all is out there.
             </p>
           </div>
         </div>
