@@ -643,6 +643,86 @@ export default function AboutMe() {
             </p>
           </div>
         </div>
+
+        <br></br>
+
+        <div className="container bg-white">
+          <div className="row border border-dark border-5 rounded-3">
+            <div className="col"></div>
+            <h3 className="text-center">Week Eleven</h3>
+            <div className="text-center">
+              <img
+                src="./img/Database.PNG"
+                className="rounded mx-auto d-block img-fluid postPic"
+                alt="Database logo"
+              />
+            </div>
+
+            <p>
+              Week Eleven of bootcamp kicked off the back end portion of our
+              learning. It's been a big adjustment in my thinking because it's
+              not the portion of the code that I am used to seeing. That said,
+              the logic of the code remains the same. Learning your first coding
+              language is much harder than learning your second or third. The
+              syntax may change from one to another, but the way you think
+              through problems doesn't change.
+            </p>
+
+            <p>
+              I'm glad that we started with JavaScript and work on the front end
+              rather than starting on the back end with something like PHP. Both
+              of those use HTML, so it's beneficial to start with that, which is
+              seen on the front end, so it makes sense to me to start with the
+              front end of JavaScript as well. I like the idea of being able to
+              see the rendering on the page as I'm first learning how to code,
+              so, for at least me personally, it would've been much more
+              difficult to start with PHP rather than JavaScript.
+            </p>
+
+            <p>
+              Final Project time is approaching rapidly, and while I still don't
+              know exactly what mine will be, I would like to do something with
+              sports, because it is something that I'm passionate about and will
+              enjoy making. Now that we're working with the front end and back
+              end, I'll need to find data to use. There's an API I found called
+              Sportspage Feeds that populates real-time sports data which would
+              be really fun to be able to render in some way, so I'm thinking
+              I'd like to find a way to use that API or sommething similar.
+            </p>
+          </div>
+        </div>
+
+        <br></br>
+
+        <div className="container bg-white">
+          <div className="row border border-dark border-5 rounded-3">
+            <div className="col"></div>
+            <h3 className="text-center">Week Twelve</h3>
+            <div className="text-center">
+              <img
+                src="./img/braincode.png"
+                className="rounded mx-auto d-block img-fluid postPic"
+                alt="Database logo"
+              />
+            </div>
+
+            <p>
+              What are your thoughts about how far you have come? How has your
+              Digital Literacy, Computational Thinking, and Adoption of Coding
+              Culture increased?
+            </p>
+
+            <p>
+              What are you struggling with the most in the Tech Stack so far and
+              why?
+            </p>
+
+            <p>
+              What companies or people (local or not) would you like to hear
+              talk during a Bootcamp lunch and learn?
+            </p>
+          </div>
+        </div>
       </body>
       <Footer />
     </>
