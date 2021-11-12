@@ -18,11 +18,13 @@ export default function AboutMe() {
         <div className="row row-cols-1 row-cols-md-3 g-4">
           <div className="col">
             <div className="card text-center h-100">
-              <img
-                src="./img/Alarm Clock Snip.png"
-                className="card-img-top"
-                alt="Alarm CLock Project"
-              />
+              <div className="portContainer">
+                <img
+                  src="./img/Alarm Clock Snip.png"
+                  className="card-img-top portImage"
+                  alt="Alarm CLock Project"
+                />
+              </div>
               <div className="card-body cardAlign">
                 <h4 className="card-title">Alarm Clock</h4>
                 <p className="card-text">
@@ -51,11 +53,13 @@ export default function AboutMe() {
           </div>
           <div className="col">
             <div className="card text-center h-100">
-              <img
-                src="./img/WeatherAppSnip.png"
-                className="card-img-top"
-                alt="Weather App Project"
-              />
+              <div className="portContainer">
+                <img
+                  src="./img/WeatherAppSnip.png"
+                  className="card-img-top portImage"
+                  alt="Weather App Project"
+                />
+              </div>
               <div className="card-body cardAlign">
                 <h4 className="card-title">Weather App</h4>
                 <p className="card-text">
@@ -84,11 +88,13 @@ export default function AboutMe() {
           </div>
           <div className="col">
             <div className="card text-center h-100">
-              <img
-                src="./img/TicTacToeSnip.png"
-                className="card-img-top"
-                alt="Tic Tac Toe Project"
-              />
+              <div className="portContainer">
+                <img
+                  src="./img/TicTacToeSnip.png"
+                  className="card-img-top portImage"
+                  alt="Tic Tac Toe Project"
+                />
+              </div>
               <div className="card-body cardAlign">
                 <h4 className="card-title">Tic Tac Toe</h4>
                 <p className="card-text">
@@ -117,11 +123,13 @@ export default function AboutMe() {
           </div>
           <div className="col">
             <div className="card text-center h-100">
-              <img
-                src="./img/ToDoSnip.png"
-                className="card-img-top"
-                alt="To Do List Project"
-              />
+              <div className="portContainer">
+                <img
+                  src="./img/ToDoSnip.png"
+                  className="card-img-top portImage"
+                  alt="To Do List Project"
+                />
+              </div>
               <div className="card-body cardAlign">
                 <h4 className="card-title">To Do List</h4>
                 <p className="card-text">
@@ -150,11 +158,13 @@ export default function AboutMe() {
           </div>
           <div className="col">
             <div className="card text-center h-100">
-              <img
-                src="./img/FishingHooksSnip.png"
-                className="card-img-top"
-                alt="Fishing Hooks Project"
-              />
+              <div className="portContainer">
+                <img
+                  src="./img/FishingHooksSnip.png"
+                  className="card-img-top portImage"
+                  alt="Fishing Hooks Project"
+                />
+              </div>
               <div className="card-body cardAlign">
                 <h4 className="card-title">Bait and Tackle Product Page</h4>
                 <p className="card-text">
@@ -184,11 +194,13 @@ export default function AboutMe() {
           </div>
           <div className="col">
             <div className="card text-center h-100">
-              <img
-                src="./img/FishingGroupSnip.png"
-                className="card-img-top"
-                alt="Cat Steve's Project"
-              />
+              <div className="portContainer">
+                <img
+                  src="./img/FishingGroupSnip.png"
+                  className="card-img-top portImage"
+                  alt="Cat Steve's Project"
+                />
+              </div>
               <div className="card-body cardAlign">
                 <h4 className="card-title">Cat Steve's Consumer Site</h4>
                 <p className="card-text">
