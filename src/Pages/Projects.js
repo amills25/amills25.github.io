@@ -229,6 +229,50 @@ export default function AboutMe() {
               </div>
             </div>
           </div>
+          <div className="col">
+            <div className="card text-center h-100">
+              <div className="portContainer">
+                <img
+                  src="./img/SECDraftLeagueLogo.png"
+                  className="card-img-top portImage"
+                  alt="SEC Draft League Project"
+                />
+              </div>
+              <div className="card-body cardAlign">
+                <h4 className="card-title">The Original SEC Draft League</h4>
+                <p className="card-text">
+                  <b>Tech Stack:</b> HTML, CSS, React-Bootstrap, JavaScript,
+                  React Hooks, React-Router, PHP, SQL, Laravel
+                </p>
+                <div className="row justify-content-center">
+                  <a
+                    href="https://secdraftleague.web.app/"
+                    className="btn border-dark col-3 mx-1"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    View Project
+                  </a>{" "}
+                  <a
+                    href="https://github.com/amills25/SECDraftLeague"
+                    className="btn border-dark col-3 mx-1"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Front End Repo
+                  </a>{" "}
+                  <a
+                    href="https://github.com/amills25/SECDraftLeagueLaravel"
+                    className="btn border-dark col-3 mx-1"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Back End Repo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 

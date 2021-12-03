@@ -18,7 +18,7 @@ export default function AboutMe() {
           <h2 className="text-center">Andrew Mills</h2>
           <div className="text-center">
             <img
-              src="./img/HEADSHOT.JPG"
+              src="./img/AIHeadshot.jpg"
               className="rounded img-fluid postPic"
               alt="Andrew Mills"
             />
