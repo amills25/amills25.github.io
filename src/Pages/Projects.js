@@ -233,7 +233,7 @@ export default function AboutMe() {
             <div className="card text-center h-100">
               <div className="portContainer">
                 <img
-                  src="./img/HomeScreenshot.png"
+                  src="./img/HomeScreenshot.PNG"
                   className="card-img-top portImage"
                   alt="SEC Draft League Project"
                 />
